@@ -1,4 +1,5 @@
 const socket = io.connect("https://socketio-chat-2v2j.onrender.com");
+// projeyi localde çalıştırıyorsanız urli değiştirin; http://localhost:3000
 
 const sender = document.getElementById("sender");
 const message = document.getElementById("message");
