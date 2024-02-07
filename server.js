@@ -3,7 +3,7 @@ const socket = require("socket.io");
 const cors = require("cors");
 
 const app = express();
-const server = app.listen(3000, "0.0.0.0");
+const server = app.listen();
 
 app.use(express.static("public"));
 app.use(cors());
