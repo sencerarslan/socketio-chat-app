@@ -1,4 +1,4 @@
-const socket = io.connect("https://socketio-chat-app-orcin.vercel.app");
+const socket = io.connect("https://socketio-chat-app-orcin.vercel.app:3000");
 
 const sender = document.getElementById("sender");
 const message = document.getElementById("message");
